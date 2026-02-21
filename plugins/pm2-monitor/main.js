@@ -5,7 +5,7 @@
  */
 
 (function () {
-    var PANEL_ID = 'pm2-monitor';
+    var PANEL_ID = 'com.zync.plugin.pm2-monitor';
 
     var panelHTML = `<!DOCTYPE html>
 <html lang="en">
