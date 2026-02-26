@@ -9,7 +9,7 @@
       "downloadUrl": "https://raw.githubusercontent.com/gajendraxdev/zync-extensions/main/plugins/ssh-quick-commands.zip",
       "thumbnailUrl": "",
       "icon": "Terminal",
-      "type": "tool"
+      "type": "plugin"
     },
     {
       "id": "com.zync.plugin.connection-stats",
@@ -20,7 +20,7 @@
       "downloadUrl": "https://raw.githubusercontent.com/gajendraxdev/zync-extensions/main/plugins/connection-stats.zip",
       "thumbnailUrl": "",
       "icon": "Activity",
-      "type": "tool"
+      "type": "plugin"
     },
     {
       "id": "com.zync.plugin.pm2-monitor",
@@ -31,7 +31,7 @@
       "downloadUrl": "https://raw.githubusercontent.com/gajendraxdev/zync-extensions/main/plugins/pm2-monitor.zip",
       "thumbnailUrl": "",
       "icon": "Cpu",
-      "type": "panel"
+      "type": "plugin"
     }
   ]
 }
