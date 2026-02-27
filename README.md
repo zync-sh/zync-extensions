@@ -1,8 +1,14 @@
-# Zync Extensions
+<div align="center">
+  <br />
+  <img src="assets/banner.svg" alt="Zync Extensions Banner" width="800" />
+  <br /><br />
 
-Official registry and repository for [Zync](https://github.com/zync-sh/zync) plugins and themes.
-
-The full list of available extensions is maintained in the main Zync repo: [Plugin Catalog](https://github.com/zync-sh/zync/blob/main/PLUGIN_CATALOG.md).
+  <p>
+    <a href="https://github.com/zync-sh/zync"><strong>Main Project</strong></a>&nbsp;&nbsp;•&nbsp;&nbsp;
+    <a href="https://github.com/zync-sh/zync/blob/main/PLUGIN_CATALOG.md"><strong>Plugin Catalog</strong></a>
+  </p>
+  <br />
+</div>
 
 ---
 
