@@ -1,8 +1,14 @@
-# Zync Extensions
+<div align="center">
+  <br />
+  <img src="assets/banner.svg" alt="Zync Extensions Banner" width="800" />
+  <br /><br />
 
-Official registry and repository for [Zync](https://github.com/gajendraxdev/zync) plugins and themes.
-
-The full list of available extensions is maintained in the main Zync repo: [Plugin Catalog](https://github.com/gajendraxdev/zync/blob/main/PLUGIN_CATALOG.md).
+  <p>
+    <a href="https://github.com/zync-sh/zync"><strong>Main Project</strong></a>&nbsp;&nbsp;•&nbsp;&nbsp;
+    <a href="https://github.com/zync-sh/zync/blob/main/PLUGIN_CATALOG.md"><strong>Plugin Catalog</strong></a>
+  </p>
+  <br />
+</div>
 
 ---
 
@@ -18,7 +24,7 @@ Zync fetches `marketplace.json` from this repository to display available extens
 | [Connection Stats](plugins/connection-stats) | tool | Live CPU/memory/disk stats in the status bar |
 | [PM2 Monitor](plugins/pm2-monitor) | panel | PM2 process manager dashboard |
 
-See the [Plugin Catalog](https://github.com/gajendraxdev/zync/blob/main/PLUGIN_CATALOG.md) for the full catalog with links and versions.
+See the [Plugin Catalog](https://github.com/zync-sh/zync/blob/main/PLUGIN_CATALOG.md) for the full catalog with links and versions.
 
 ---
 
