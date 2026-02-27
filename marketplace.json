@@ -6,7 +6,7 @@
       "version": "1.0.0",
       "description": "Adds useful SSH utility commands to the command palette — ping, uptime, disk usage, memory, and more.",
       "author": "Zync Community",
-      "downloadUrl": "https://raw.githubusercontent.com/gajendraxdev/zync-extensions/main/plugins/ssh-quick-commands.zip",
+      "downloadUrl": "https://raw.githubusercontent.com/zync-sh/zync-extensions/main/plugins/ssh-quick-commands.zip",
       "thumbnailUrl": "",
       "icon": "Terminal",
       "type": "plugin"
@@ -17,7 +17,7 @@
       "version": "1.0.0",
       "description": "Displays live CPU, memory, and disk stats for your active SSH connection in the status bar.",
       "author": "Zync Community",
-      "downloadUrl": "https://raw.githubusercontent.com/gajendraxdev/zync-extensions/main/plugins/connection-stats.zip",
+      "downloadUrl": "https://raw.githubusercontent.com/zync-sh/zync-extensions/main/plugins/connection-stats.zip",
       "thumbnailUrl": "",
       "icon": "Activity",
       "type": "plugin"
@@ -28,7 +28,7 @@
       "version": "1.1.0",
       "description": "A full PM2 process manager panel inside Zync. View process status, CPU/memory usage, restart, stop, and tail logs — all from a rich UI panel in your connection tab.",
       "author": "Zync Community",
-      "downloadUrl": "https://raw.githubusercontent.com/gajendraxdev/zync-extensions/main/plugins/pm2-monitor.zip",
+      "downloadUrl": "https://raw.githubusercontent.com/zync-sh/zync-extensions/main/plugins/pm2-monitor.zip",
       "thumbnailUrl": "",
       "icon": "Cpu",
       "type": "plugin"
