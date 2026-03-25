@@ -5,7 +5,8 @@
 
   <p>
     <a href="https://github.com/zync-sh/zync"><strong>Main Project</strong></a>&nbsp;&nbsp;•&nbsp;&nbsp;
-    <a href="https://github.com/zync-sh/zync/blob/main/PLUGIN_CATALOG.md"><strong>Plugin Catalog</strong></a>
+    <a href="https://github.com/zync-sh/zync/blob/main/PLUGIN_CATALOG.md"><strong>Plugin Catalog</strong></a>&nbsp;&nbsp;•&nbsp;&nbsp;
+    <a href="DEVELOPER_GUIDE.md"><strong>Developer Guide</strong></a>
   </p>
   <br />
 </div>

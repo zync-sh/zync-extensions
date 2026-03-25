@@ -1,0 +1,22 @@
+{
+  "name": "@zync/plugin-api",
+  "version": "1.0.0",
+  "description": "TypeScript type definitions for the Zync Plugin API",
+  "types": "index.d.ts",
+  "keywords": [
+    "zync",
+    "plugin",
+    "extension",
+    "typescript",
+    "types"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zync-sh/zync-extensions"
+  },
+  "license": "MIT",
+  "files": [
+    "index.d.ts",
+    "README.md"
+  ]
+}

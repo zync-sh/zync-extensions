@@ -5,5 +5,5 @@
   "description": "A live PM2 process manager panel inside Zync. View, restart, stop, and tail logs for your PM2 processes directly from the connection tab.",
   "author": "Zync Extensions",
   "main": "main.js",
-  "permissions": ["terminal", "statusBar", "ui", "panel"]
+  "permissions": ["ssh:exec", "terminal:write", "terminal:newtab", "statusbar:write", "ui:notify", "ui:confirm"]
 }

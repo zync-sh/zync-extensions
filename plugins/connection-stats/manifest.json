@@ -2,5 +2,6 @@
   "id": "com.zync.plugin.connection-stats",
   "name": "Connection Stats",
   "version": "1.0.0",
-  "main": "main.js"
+  "main": "main.js",
+  "permissions": ["ssh:exec", "statusbar:write"]
 }
