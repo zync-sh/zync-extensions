@@ -2,6 +2,7 @@
   "name": "@zync/plugin-api",
   "version": "1.0.0",
   "description": "TypeScript type definitions for the Zync Plugin API",
+  "author": "Zync team",
   "types": "index.d.ts",
   "keywords": [
     "zync",
@@ -16,7 +17,6 @@
   },
   "license": "MIT",
   "files": [
-    "index.d.ts",
-    "README.md"
+    "index.d.ts"
   ]
 }

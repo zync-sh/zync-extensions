@@ -1,0 +1,19 @@
+{
+  "name": "@zync/publish-cli",
+  "version": "1.0.0",
+  "description": "Official CLI toolkit for validating, packing, and publishing Zync extensions",
+  "author": "Zync Extensions Team",
+  "license": "MIT",
+  "bin": {
+    "zync-publish": "./cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

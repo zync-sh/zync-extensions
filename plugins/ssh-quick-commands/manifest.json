@@ -2,6 +2,9 @@
   "id": "com.zync.plugin.ssh-quick-commands",
   "name": "SSH Quick Commands",
   "version": "1.0.0",
+  "description": "Adds useful SSH utility commands to the command palette — ping, uptime, disk usage, memory, and more.",
+  "author": "Zync Community",
+  "type": "headless",
   "main": "main.js",
-  "permissions": ["terminal:write"]
+  "permissions": ["terminal:write", "ssh:exec"]
 }

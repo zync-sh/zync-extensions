@@ -2,6 +2,9 @@
   "id": "com.zync.plugin.connection-stats",
   "name": "Connection Stats",
   "version": "1.0.0",
+  "description": "Displays live CPU, memory, and disk stats for your active SSH connection in the status bar.",
+  "author": "Zync Community",
+  "type": "headless",
   "main": "main.js",
   "permissions": ["ssh:exec", "statusbar:write"]
 }

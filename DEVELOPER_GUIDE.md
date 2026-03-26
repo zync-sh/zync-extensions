@@ -17,7 +17,7 @@ Zync supports two types of extensions:
 
 ## 🔒 Permissions
 
-Every API call your plugin makes is gated by the `permissions` array in your `manifest.json`. If you call an API without the matching permission, Zync will **silently block** the call and log a warning to the developer console.
+Every API call your plugin makes is gated by the `permissions` array in your `manifest.json`. If you call an API without the matching permission, Zync will **reject the Promise with a `PermissionError`** (or throw synchronously) and also trigger the developer-visible UI error mechanism to surface the issue. The error message will verbatim include the missing permission from the `permissions` array and keep the `console.warn` for logging.
 
 ```json
 {
@@ -48,9 +48,10 @@ Every API call your plugin makes is gated by the `permissions` array in your `ma
 ## 📝 TypeScript Support (3 methods)
 
 ### Method 1: Drop-In File
-Download [`packages/plugin-api/index.d.ts`](packages/plugin-api/index.d.ts) and place it in your plugin folder. VS Code will automatically pick it up and give you full autocomplete.
+Download [`../packages/plugin-api/index.d.ts`](../packages/plugin-api/index.d.ts) and place it in your plugin folder. VS Code will automatically pick it up and give you full autocomplete.
 
 ### Method 2: JSDoc (No files needed)
+*(Note: This example assumes you have downloaded `index.d.ts` as described in Method 1)*
 Add a single comment to the top of your `main.js`:
 ```javascript
 /** @type {import('./index.d.ts').ZyncAPI} */
@@ -142,4 +143,4 @@ Copy the output hash into the `sha256` field in `marketplace.json`.
 
 ## Plugin API Reference
 
-See [`packages/plugin-api/index.d.ts`](packages/plugin-api/index.d.ts) for the full typed reference.
+See [`../packages/plugin-api/index.d.ts`](../packages/plugin-api/index.d.ts) for the full typed reference.
