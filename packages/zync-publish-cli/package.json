@@ -1,6 +1,6 @@
 {
   "name": "@zync/publish-cli",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Official CLI toolkit for validating, packing, and publishing Zync extensions",
   "author": "Zync Extensions Team",
   "license": "MIT",
